@@ -1,22 +1,18 @@
 package logaaan.itemessentials.listeners;
 
-import eu.endercentral.crazy_advancements.advancement.AdvancementDisplay;
-import eu.endercentral.crazy_advancements.advancement.ToastNotification;
 import logaaan.itemessentials.CoreClass;
 import logaaan.itemessentials.Utils;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityDropItemEvent;
-import org.bukkit.event.entity.EntityPickupItemEvent;
-import org.bukkit.event.inventory.*;
+import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.inventory.InventoryCloseEvent;
+import org.bukkit.event.inventory.InventoryDragEvent;
+import org.bukkit.event.inventory.InventoryOpenEvent;
 import org.bukkit.event.player.PlayerItemHeldEvent;
-import org.bukkit.event.player.PlayerPickupItemEvent;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.plugin.Plugin;
 
 import java.util.EventListener;
-import java.util.Objects;
 
 public class InventoryListeners implements EventListener, Listener {
 
@@ -24,6 +20,7 @@ public class InventoryListeners implements EventListener, Listener {
 
     @EventHandler
     public void InvEv6(InventoryClickEvent ev) {
+        if (!ev.getView().getTitle().equals(ev.getView().getType().getDefaultTitle())) return;
         for (ItemStack i : ev.getInventory().getContents()) {
             if (i == null || i != null && i.getItemMeta() == null) continue;
             Utils.addDefaultsToItem(i, ev.getView().getTitle());
@@ -41,6 +38,10 @@ public class InventoryListeners implements EventListener, Listener {
             } catch (Exception e) {
                 main.getLogger().info("There was an error with Material '" + ev.getCurrentItem().getType().name() + "' to play custom sound. Check your config!");
             }
+        } else {
+            if (ev.getCurrentItem().getType().isBlock()) {
+                p.playSound(p.getLocation(), ev.getCurrentItem().getType().createBlockData().getSoundGroup().getPlaceSound(), 1.0f, 1.2f);
+            }
         }
 
     }
@@ -50,6 +51,7 @@ public class InventoryListeners implements EventListener, Listener {
 
         if (!CoreClass.useHotbarSounds) return;
         Player p = ev.getPlayer();
+
         main.getServer().getScheduler().scheduleSyncDelayedTask(main, () -> {
             if (CoreClass.clickSounds.containsKey(p.getItemInHand().getType())) {
                 try {
@@ -61,6 +63,10 @@ public class InventoryListeners implements EventListener, Listener {
                     p.playSound(p.getLocation(), sound, vol, pitch);
                 } catch (Exception e) {
                     main.getLogger().info("There was an error with Material '" + p.getItemInHand().getType().name() + "' to play custom sound. Check your config!");
+                }
+            } else {
+                if (p.getItemInHand().getType().isBlock()){
+                    p.playSound(p.getLocation(), p.getItemInHand().getType().createBlockData().getSoundGroup().getPlaceSound(), 1.0f, 1.2f);
                 }
             }
         }, 1);
