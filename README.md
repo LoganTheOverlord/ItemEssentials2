@@ -18,6 +18,8 @@
 - Has a history for translations, allowing for transition between versions of them, which means, that every piece of lore will be detected indenpendent of which one of previously used ones is contained in the lore of an item. This history also transits into item packs, and translates them into your format.
 - Editing inventory click sounds, as well as pickup sounds, and even scrolling sounds!
 - Displays all enchantments (up to level 1000 for now) in Roman number format with precision.
+- You can also display pickup notifications using Toasts.
+- Most of the commands have fancy feedback, such as sounds, and toasts, some have particles.
 
 # Future updates
 
