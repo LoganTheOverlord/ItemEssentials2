@@ -1,0 +1,17 @@
+old-keys:
+  lore-lines:
+    attributes: "&e&l| &f&lAttributes"
+    enchantments: "&e&l| &f&lEnchantments"
+    attack-damage: "&e&l| &f&lAttack Damage: &e&l"
+    armor-value: "&e&l| &f&lArmor: &e&l"
+    nutrition-value: "&e&l| &f&lNutrition: &e&l"
+    category: "&e&l| &9"
+
+  #Here you can change default translations to enchantments! Add others at will. (Example)
+  enchantment-names:
+    DAMAGE_ALL: "Sharpandiere"
+    DAMAGE_UNDEAD: "Smite"
+    PROTECTION_ENVIRONMENTAL: "Protection"
+
+  categories:
+    FOOD: "Foods"
