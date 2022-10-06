@@ -28,3 +28,5 @@
 >Github: https://github.com/diademiemi/Embellish
 - User: GleemingKnight, code: Command API & execution. Slight modifications and fixes were made to prevent errors, only thing left is fixing the auto-complete issue.
 >Github: https://github.com/GleemingKnight/spigot-command-api
+- User: ZockerAxel, code: Advancement API, used mainly for toasts. Since it's complete, no modifications were required.
+>Github: https://github.com/ZockerAxel/CrazyAdvancementsAPI
