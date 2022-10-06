@@ -1,0 +1,8 @@
+name: ItemEssentials
+version: '${project.version}'
+main: logaaan.itemessentials.CoreClass
+api-version: 1.19
+prefix: IE
+authors: [ LogaaanCzech ]
+description: A fully-fledged plugin to take control over your server's items!
+depend: [CrazyAdvancementsAPI]

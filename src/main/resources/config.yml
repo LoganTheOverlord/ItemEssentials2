@@ -1,0 +1,114 @@
+#controls whenever your items are loaded when you switch gamemode between survival, adventure and creative.
+enable-gamemode-switching: true
+
+#controls whenever lore should be formatter upon dropping, dragging, renaming, etc. This hides attribues, and enchantments, and uses it's own formatting to display them.
+use-lore-formatting: false
+
+#Here you can specify the lore format gradient! (gl:green,yellow;) is default.
+lore-enchantment-format: "gl:green,yellow;"
+
+#Should we use enchantments section?
+use-enchantments: true
+
+#Should we use attributes section?
+use-attributes: true
+
+#Use pickup sounds?
+use-pickup-sounds: true
+
+#Use hotbar sounds? (Comes from custom-click-sounds)
+use-hotbar-sounds: true
+
+#enable pickup notifications?
+use-pickup-notifications: false
+
+
+#Here you can change looks of the lore format!
+lore-lines:
+  attributes: "&e&l| &f&lAttributes"
+  enchantments: "&e&l| &f&lEnchantments"
+  attack-damage: "&e&l| &f&lAttack Damage: &e&l"
+  nutrition-value: "&e&l| &f&lNutrition: &e&l"
+  category: "&e&l| &9"
+
+#Here you can change default translations to enchantments! Add others at will. (Example)
+enchantment-names:
+  DAMAGE_ALL: "Sharpness"
+  DAMAGE_UNDEAD: "Smite"
+  DAMAGE_ARTHROPODS: "Bane of Arthropods"
+  PROTECTION_ENVIRONMENTAL: "Protection"
+  PROTECTION_FALL: "Feather Falling"
+  PROTECTION_FIRE: "Fire Protection"
+  PROTECTION_EXPLOSIONS: "Blast Protection"
+  PROTECTION_PROJECTILE: "Projectile Protection"
+  FROST_WALKER: "Frost Walker"
+  WATER_WORKER: "Aqua Affinity"
+  DURABILITY: "Unbreaking"
+  LOOT_BONUS_BLOCKS: "Fortune"
+  LOOT_BONUS_MOBS: "Looting"
+  VANISHING_CURSE: "Curse of Vanishing"
+  BINDING_CURSE: "Curso of Binding"
+  MENDING: "Mending"
+  RIPTIDE: "Riptide"
+  LOYALTY: "Loyalty"
+  PIERCING: "Piercing"
+  MULTISHOT: "Multishot"
+  ARROW_DAMAGE: "Power"
+  ARROW_FIRE: "Flame"
+  ARROW_INFINITE: "Infinity"
+  ARROW_KNOCKBACK: "Punch"
+  KNOCKBACK: "Knockback"
+  FIRE_ASPECT: "Fire Aspect"
+  IMPALING: "Impaling"
+  THORNS: "Thorns"
+  LUCK: "Luck of the Sea"
+  LURE: "Lure"
+  OXYGEN: "Respiration"
+  SOUL_SPEED: "Soul Speed"
+  QUICK_CHARGE: "Quick Charge"
+  SWIFT_SNEAK: "Swift Sneak"
+  SILK_TOUCH: "Silk Touch"
+  DEPTH_STRIDER: "Depth Strider"
+  DIG_SPEED: "Efficiency"
+
+
+enchantment-descriptions:
+  DAMAGE_ALL: "&8&l| &7Increases damage towards &cmobs&7 and &eplayers&7 (&fMax &e&lV&7)"
+  DAMAGE_UNDEAD: "&8&l| &7Increases damage towards &cundead mobs&7 (&fMax &e&lV&7)"
+  PROTECTION_ENVIRONMENTAL: "&8&l| &7Increases protection to &c&lall sources&7 (&fMax &e&lIV&7)"
+  PROTECTION_PROJECTILE: "&8&l| &7Increases protection to &c&lprojectiles&7 (&fMax &e&lIV&7)"
+  PROTECTION_FIRE: "&8&l| &7Increases protection to &c&lfire&7 (&fMax &e&lIV&7)"
+  PROTECTION_EXPLOSIONS: "&8&l| &7Increases protection to &c&lexplosions&7 (&fMax &e&lIV&7)"
+  DAMAGE_ARTHROPODS: "&8&l| &7Increases damage towards &cinsectoids&7 (&fMax &e&lV&7)"
+  LOOT_BONUS_BLOCKS: "&8&l| &7Increases amount of &b&lores&7 mined (&fMax &e&lIII&7)"
+  LOOT_BONUS_MOBS: "&8&l| &7Increases &bamount&7 of loot from &cmobs&7 (&fMax &e&lIII&7)"
+  LURE: "&8&l| &7Increases speed of &cfishing&7 (&fMax &e&lIII&7)"
+  LUCK: "&8&l| &7Increases &btier&7 of loot while &cfishing&7 (&fMax &e&lIII&7)"
+  DURABILITY: "&8&l| &bIncreases durability&7 of item. (&fMax &e&lIII&7)"
+  MENDING: "&8&l| &dRepairs enchanted with EXP picked.&7 (&fMax &e&lI&7)"
+  QUICK_CHARGE: "&8&l| &cReduces time&7 required to &cload&7 a crossbow. (&fMax &e&lIII&7)"
+  ARROW_DAMAGE: "&8&l| &7Increases &cbow&7 and &ccrossbow damage&7. (&fMax &e&lV&7)"
+  ARROW_FIRE: "&8&l| &7Sets all arrows &c&lto fire&7. (&fMax &e&lI&7)"
+  ARROW_KNOCKBACK: "&8&l| &bKnocks enemies&7 further using projectiles. (&fMax &e&lII&7)"
+  KNOCKBACK: "&8&l| &bKnocks enemies&7 further when attacking. (&fMax &e&lIII&7)"
+  ARROW_INFINITE: "&8&l| &7Bows require &bonly one arrow&7 in inventory. (&fMax &e&lI&7)"
+  OXYGEN: "&8&l| &7Increases &bamount of oxygen &bunderwater&7. (&fMax &e&lIII&7)"
+  WATER_WORKER: "&8&l| &7Increases digging speed &bunderwater&7. (&fMax &e&lI&7)"
+  DEPTH_STRIDER: "&8&l| &7Increases &bswimming speed&7 while on boots. (&fMax &e&lIII&7)"
+  RIPTIDE: "&8&l| &7Boosts you in direction thrown whilst wet. (&fMax &e&lIII&7)"
+  IMPALING: "&8&l| &7Increases damage to &bunderwater mobs&7. (&fMax &e&lV&7)"
+  LOYALTY: "&8&l| &7Returns a trident to owner after landing. (&fMax &e&lIII&7)"
+  DIG_SPEED: "&8&l| &7Increases digging speed with tools. (&fMax &e&lV&7)"
+  THORNS: "&8&l| &7Has a chance of reflecting damage. (&fMax &e&lII&7)"
+  MULTISHOT: "&8&l| &7Fires multiple arrows from crossbow. (&fMax &e&lI&7)"
+  CHANNELING: "&8&l| &7Creates lightning with trident during thurnder. (&fMax &e&lI&7)"
+  SWIFT_SNEAK: "&8&l| &7Increases walk speed while sneaking. (&fMax &e&lIII&7)"
+
+custom-click-sounds:
+  WHEAT: "block.grass.hit;1.0;0.7"
+
+pickup-sounds:
+  WHEAT: "block.grass.hit;1.0;0.7"
+
+categories:
+  FOOD: "Foods"
