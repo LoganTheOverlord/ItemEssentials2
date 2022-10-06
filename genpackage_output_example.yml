@@ -1,94 +1,71 @@
 package:
   airplane-light:
-    yml:
-      download-url: https://yourwebserver.com/uploads/airplane-light.yml
-      place-to-path: /airplane-light.yml
+    download-url: https://yourwebserver.com/uploads/airplane-light.yml
+    place-to-path: /airplane-light.yml
   bukkit:
-    yml:
-      download-url: https://yourwebserver.com/uploads/bukkit.yml
-      place-to-path: /bukkit.yml
+    download-url: https://yourwebserver.com/uploads/bukkit.yml
+    place-to-path: /bukkit.yml
   commands:
-    yml:
-      download-url: https://yourwebserver.com/uploads/commands.yml
-      place-to-path: /commands.yml
+    download-url: https://yourwebserver.com/uploads/commands.yml
+    place-to-path: /commands.yml
   paper-global:
-    yml:
-      download-url: https://yourwebserver.com/uploads\config/paper-global.yml
-      place-to-path: \config/paper-global.yml
+    download-url: https://yourwebserver.com/uploads\config/paper-global.yml
+    place-to-path: \config/paper-global.yml
   paper-world-defaults:
-    yml:
-      download-url: https://yourwebserver.com/uploads\config/paper-world-defaults.yml
-      place-to-path: \config/paper-world-defaults.yml
+    download-url: https://yourwebserver.com/uploads\config/paper-world-defaults.yml
+    place-to-path: \config/paper-world-defaults.yml
   help:
-    yml:
-      download-url: https://yourwebserver.com/uploads/help.yml
-      place-to-path: /help.yml
+    download-url: https://yourwebserver.com/uploads/help.yml
+    place-to-path: /help.yml
   Light-Spigot:
-    yml:
-      download-url: https://yourwebserver.com/uploads/Light-Spigot.yml
-      place-to-path: /Light-Spigot.yml
+    download-url: https://yourwebserver.com/uploads/Light-Spigot.yml
+    place-to-path: /Light-Spigot.yml
   permissions:
-    yml:
-      download-url: https://yourwebserver.com/uploads/permissions.yml
-      place-to-path: /permissions.yml
+    download-url: https://yourwebserver.com/uploads/permissions.yml
+    place-to-path: /permissions.yml
   config:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\Upkeeper/config.yml
-      place-to-path: \plugins\Upkeeper/config.yml
+    download-url: https://yourwebserver.com/uploads\plugins\Upkeeper/config.yml
+    place-to-path: \plugins\Upkeeper/config.yml
   inventories:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\ItemEssentials/inventories.yml
-      place-to-path: \plugins\ItemEssentials/inventories.yml
+    download-url: https://yourwebserver.com/uploads\plugins\ItemEssentials/inventories.yml
+    place-to-path: \plugins\ItemEssentials/inventories.yml
   translations_old - kopie:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\ItemEssentials/translations_old
-        - kopie.yml
-      place-to-path: \plugins\ItemEssentials/translations_old - kopie.yml
+    download-url: https://yourwebserver.com/uploads\plugins\ItemEssentials/translations_old
+      - kopie.yml
+    place-to-path: \plugins\ItemEssentials/translations_old - kopie.yml
   translations_old:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\ItemEssentials/translations_old.yml
-      place-to-path: \plugins\ItemEssentials/translations_old.yml
+    download-url: https://yourwebserver.com/uploads\plugins\ItemEssentials/translations_old.yml
+    place-to-path: \plugins\ItemEssentials/translations_old.yml
   messages:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\PlugManX/messages.yml
-      place-to-path: \plugins\PlugManX/messages.yml
+    download-url: https://yourwebserver.com/uploads\plugins\PlugManX/messages.yml
+    place-to-path: \plugins\PlugManX/messages.yml
   resourcemaps:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\PlugManX/resourcemaps.yml
-      place-to-path: \plugins\PlugManX/resourcemaps.yml
+    download-url: https://yourwebserver.com/uploads\plugins\PlugManX/resourcemaps.yml
+    place-to-path: \plugins\PlugManX/resourcemaps.yml
   save:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\SkinOverlay/save.yml
-      place-to-path: \plugins\SkinOverlay/save.yml
+    download-url: https://yourwebserver.com/uploads\plugins\SkinOverlay/save.yml
+    place-to-path: \plugins\SkinOverlay/save.yml
   ItemEssentials:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\Upkeeper/ItemEssentials.yml
-      place-to-path: \plugins\Upkeeper/ItemEssentials.yml
+    download-url: https://yourwebserver.com/uploads\plugins\Upkeeper/ItemEssentials.yml
+    place-to-path: \plugins\Upkeeper/ItemEssentials.yml
   plugins:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\Upkeeper/plugins.yml
-      place-to-path: \plugins\Upkeeper/plugins.yml
+    download-url: https://yourwebserver.com/uploads\plugins\Upkeeper/plugins.yml
+    place-to-path: \plugins\Upkeeper/plugins.yml
   pluginTest:
-    yml:
-      download-url: https://yourwebserver.com/uploads\plugins\Upkeeper/pluginTest.yml
-      place-to-path: \plugins\Upkeeper/pluginTest.yml
+    download-url: https://yourwebserver.com/uploads\plugins\Upkeeper/pluginTest.yml
+    place-to-path: \plugins\Upkeeper/pluginTest.yml
   purpur:
-    yml:
-      download-url: https://yourwebserver.com/uploads/purpur.yml
-      place-to-path: /purpur.yml
+    download-url: https://yourwebserver.com/uploads/purpur.yml
+    place-to-path: /purpur.yml
   spigot:
-    yml:
-      download-url: https://yourwebserver.com/uploads/spigot.yml
-      place-to-path: /spigot.yml
+    download-url: https://yourwebserver.com/uploads/spigot.yml
+    place-to-path: /spigot.yml
   tuinity:
-    yml:
-      download-url: https://yourwebserver.com/uploads/tuinity.yml
-      place-to-path: /tuinity.yml
+    download-url: https://yourwebserver.com/uploads/tuinity.yml
+    place-to-path: /tuinity.yml
   paper-world:
-    yml:
-      download-url: https://yourwebserver.com/uploads\world_the_end/paper-world.yml
-      place-to-path: \world_the_end/paper-world.yml
+    download-url: https://yourwebserver.com/uploads\world_the_end/paper-world.yml
+    place-to-path: \world_the_end/paper-world.yml
   wepif:
-    yml:
-      download-url: https://yourwebserver.com/uploads/wepif.yml
-      place-to-path: /wepif.yml
+    download-url: https://yourwebserver.com/uploads/wepif.yml
+    place-to-path: /wepif.yml
