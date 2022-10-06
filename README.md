@@ -22,7 +22,7 @@
 > Most of the focus goes into maintaining functionality, fixing bugs and adding new bleeding-edge features for better experience both for players, and admins.
 
 # Credit section
-User: diademiemi, code: Tools for providing RGB support format, some of which are rewritten.
-Github: https://github.com/diademiemi/Embellish
-User: GleemingKnight, code: Command API & execution. Slight modifications and fixes were made to prevent errors, only thing left is fixing the auto-complete issue.
-Github: https://github.com/GleemingKnight/spigot-command-api
+- User: diademiemi, code: Tools for providing RGB support format, some of which are rewritten.
+>Github: https://github.com/diademiemi/Embellish
+- User: GleemingKnight, code: Command API & execution. Slight modifications and fixes were made to prevent errors, only thing left is fixing the auto-complete issue.
+>Github: https://github.com/GleemingKnight/spigot-command-api
