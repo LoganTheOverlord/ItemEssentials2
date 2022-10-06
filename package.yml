@@ -1,4 +1,4 @@
 package:
   itemessentials_translations_old:
     download-url: "https://raw.githubusercontent.com/LoganTheOverlord/ItemEssentials2/main/translations_old.yml"
-    place-to-path: "/plugins/ItemEssentials/translations_old.yml"
+    place-to-path: "\plugins\ItemEssentials\translations_old.yml"
