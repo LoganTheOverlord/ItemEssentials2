@@ -6,6 +6,8 @@
 
 > If you have any issues, submit an issue here, on github, or PM me "LogaaanCzech" on spigotmc.org. 
 
+- See source code in master branch.
+
 # Features
 
 - You can control lore format, which includes custom attributes and enchantments display, colors, RGB, and many other things.
